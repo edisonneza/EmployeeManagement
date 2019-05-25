@@ -17,7 +17,8 @@ Public Class frm_Hyrjet
     End Sub
     Private Sub frm_Hyrjet_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
 
-        lidhja.ConnectionString = "Provider=Microsoft.ACE.OLEDB.12.0;Data source=database.mdb"
+        'lidhja.ConnectionString = "Provider=Microsoft.ACE.OLEDB.12.0;Data source=database.mdb"
+        lidhja.ConnectionString = My.Settings.ConnectionString
 
         freskoTeDhenat()
     End Sub

@@ -63,3 +63,4 @@ C:\Users\TechAlb\source\repos\EmployeeManagement\Menaxhimi Punetoreve Solucion\M
 C:\Users\TechAlb\source\repos\EmployeeManagement\Menaxhimi Punetoreve Solucion\Menaxhimi Punetoreve\obj\x86\Debug\Menaxhimi Punetoreve.xml
 C:\Users\TechAlb\source\repos\EmployeeManagement\Menaxhimi Punetoreve Solucion\Menaxhimi Punetoreve\obj\x86\Debug\Menaxhimi Punetoreve.pdb
 C:\Users\TechAlb\source\repos\EmployeeManagement\Menaxhimi Punetoreve Solucion\Menaxhimi Punetoreve\bin\Debug\database.mdb
+C:\Users\TechAlb\source\repos\EmployeeManagement\Menaxhimi Punetoreve Solucion\Menaxhimi Punetoreve\bin\Debug\Menaxhimi Punetoreve.exe.config

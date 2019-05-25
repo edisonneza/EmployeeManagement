@@ -54,7 +54,8 @@ Public Class frmPaga
     Private Sub Print_Rroga_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
         Me.CenterToScreen()
         lidhja = New OleDb.OleDbConnection
-        lidhja.ConnectionString = "Provider=Microsoft.ACE.OLEDB.12.0;Data source=database.mdb"
+        'lidhja.ConnectionString = "Provider=Microsoft.ACE.OLEDB.12.0;Data source=database.mdb"
+        lidhja.ConnectionString = My.Settings.ConnectionString
         'therrasim funksionin fresko te dhenat
         FreskoTeDhenat()
     End Sub

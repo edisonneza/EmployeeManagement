@@ -32,7 +32,9 @@ Public Class frmShtoPuntore
 
     Private Sub frmShtoPuntore_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
         lidhja = New OleDb.OleDbConnection
-        lidhja.ConnectionString = "Provider=Microsoft.ACE.OLEDB.12.0;Data source=database.mdb"
+        'lidhja.ConnectionString = "Provider=Microsoft.ACE.OLEDB.12.0;Data source=database.mdb"
+        lidhja.ConnectionString = My.Settings.ConnectionString
+
         'therrasim funksionin fresko te dhenat
         FreskoTeDhenat()
         '''''''''''''''''''''''''''''''''''''''''''''''''''''''

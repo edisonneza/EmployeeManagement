@@ -52,7 +52,8 @@ Public Class frm_Detaje
     End Sub
     Private Sub frm_Detaje_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
 
-        lidhja.ConnectionString = "Provider=Microsoft.ACE.OLEDB.12.0;Data source=database.mdb"
+        'lidhja.ConnectionString = "Provider=Microsoft.ACE.OLEDB.12.0;Data source=database.mdb"
+        lidhja.ConnectionString = My.Settings.ConnectionString
         'therrasim  fresko te dhenat
         FreskoTeDhenat()
         'therrasim modDGV per te bere modifikimin e DataGridView

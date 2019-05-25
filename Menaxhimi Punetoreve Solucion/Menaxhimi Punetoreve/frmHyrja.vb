@@ -24,7 +24,8 @@ Public Class frmHyrja
     Private Sub frmHyrja_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
         Try
             'lidhja e vertet
-            lidhja.ConnectionString = "Provider=Microsoft.ACE.OLEDB.12.0;Data source=database.mdb"
+            'lidhja.ConnectionString = "Provider=Microsoft.ACE.OLEDB.12.0;Data source=database.mdb"
+            lidhja.ConnectionString = My.Settings.ConnectionString
             If Not lidhja.State = ConnectionState.Open Then
                 lidhja.Open()
             End If

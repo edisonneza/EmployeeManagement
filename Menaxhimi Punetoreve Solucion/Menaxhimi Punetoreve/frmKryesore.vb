@@ -114,7 +114,8 @@ Public Class frmKryesore
 
     Private Sub frmKryesore_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
         lidhja = New OleDb.OleDbConnection
-        lidhja.ConnectionString = "Provider=Microsoft.ACE.OLEDB.12.0;Data source=database.mdb"
+        'lidhja.ConnectionString = "Provider=Microsoft.ACE.OLEDB.12.0;Data source=database.mdb"
+        lidhja.ConnectionString = My.Settings.ConnectionString
     End Sub
     'mos te pranoje pervec shkronjave dhe numrave. Duke perdorur ngjarjen KEYPRESS
     Private Sub txt_KeyPress(ByVal sender As Object, ByVal e As System.Windows.Forms.KeyPressEventArgs)
