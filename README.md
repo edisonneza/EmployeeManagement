@@ -8,8 +8,3 @@ A small project built in 2016.
   <img src="/Screenshots/login.PNG" alt="Login form">
   <img src="/Screenshots/dashboard.PNG" alt="Dashboard form">
 </p>
-
-# Edison Neza
- https://www.linkedin.com/in/edisonneza/ 
- 
- https://twitter.com/edisonneza/
